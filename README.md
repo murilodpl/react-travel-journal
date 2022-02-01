@@ -15,4 +15,4 @@ cd myfolder
 npm run build
 ```
 
-### Project running in Vercel -> https://vercel.com/murilodpl/react-travel-journal
+### Project running in Vercel -> https://react-travel-journal-jy2zkcj1p-murilodpl.vercel.app/
