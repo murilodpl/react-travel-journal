@@ -2,7 +2,7 @@ export default function Travel(props) {
     return (
         <div className="card">
             <div>
-                <img className="picImg" src={"./src/img/" + props.data.imageUrl} alt={props.data.title} width="210px" height="250px" loading="lazy" />
+                <img className="picImg" src={props.data.imageUrl} alt={props.data.title} width="210px" height="250px" loading="lazy" />
             </div>
 
             <div>
