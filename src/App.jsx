@@ -13,7 +13,9 @@ export default function App() {
     return (
         <div>
             <Navbar />
-            {travels}
+            <div className="cards">
+                {travels}
+            </div>
         </div>
     )
 }
