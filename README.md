@@ -14,3 +14,5 @@ npm run dev
 cd myfolder
 npm run build
 ```
+
+### Project running in Vercel -> https://vercel.com/murilodpl/react-travel-journal
