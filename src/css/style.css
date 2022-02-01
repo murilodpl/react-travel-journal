@@ -25,7 +25,25 @@ body {
 }
 
 /* Card */
+.cards {
+    margin: auto;
+    padding: 1rem 2rem;
+}
 .card {
+    padding: 1.5rem 0;
+}
+.card:not(:last-child) {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.card img.picImg {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card div {
+    align-self: center;
 }
 
 .card span.location {
@@ -52,4 +70,24 @@ body {
 
 .card p.date {
     font-weight: 700;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 720px) {
+    .cards {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .card {
+        display: flex;
+    }
+
+    .card img.picImg {
+        width: auto !important;
+        height: 250px;
+        padding-right: 1.5rem;
+        margin-bottom: 0;
+    }
 }
